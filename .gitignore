@@ -1,0 +1,27 @@
+# Keil uVision outputs and machine-specific workspace state
+/MDK-ARM/output/
+/MDK-ARM/list/
+/MDK-ARM/*.uvopt
+/MDK-ARM/*.uvoptx
+/MDK-ARM/*.uvgui*
+/MDK-ARM/*.uvguix*
+/MDK-ARM/*.dep
+/MDK-ARM/*.bak
+/MDK-ARM/GD32450Z_EVAL*
+/MDK-ARM/JLinkLog.txt
+/MDK-ARM/JLinkSettings.ini
+
+# Legacy EWARM example is not part of the maintained Keil build
+/EWARM/
+
+# Generated host-test binaries and results
+/tests/*.exe
+/tests/test_results.txt
+
+# Temporary files and firmware/build products
+/tmp/
+*.hex
+*.axf
+*.elf
+*.o
+*.obj
